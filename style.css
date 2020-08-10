@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 500vh;
+    padding-top: 20vh;
+}
+.header {
+    background-color: tomato;
+    height: 20vh;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+}
+
+.relative-div{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
